@@ -1,27 +1,77 @@
 package aula_03.cleanCode01;
-// alterar pacote se necessario
 
-
-
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Funcionario {
 	
-    private static int contatorDeIDs; //contador do auto incremento idFuncionario.
+    private static int contatorDeIDs = 1; //contador do auto incremento idFuncionario.
 	
-	int idFuncionario;
-	String nomeFuncionario;
-    int idadeFuncionario; 
-    String dataNascimentoFuncionario;
-    float salarioFuncionario;
+	private int idFuncionario;
+	private String nomeFuncionario;
+    private int idadeFuncionario; 
+    private String dataNascimentoFuncionario;
+    private float salarioFuncionario;
+    private static int MAIOR_IDADE = 18;
+    private static float SALARIO_MINIMO = 500f;
 	
     public Funcionario(String nomeFuncionario, int idadeFuncionario,
-			String dataNascimentoFuncionario, float salarioFuncionario) {
+			String dataNascimentoFuncionario, float salarioFuncionario) throws IllegalArgumentException {
 		this.idFuncionario = contatorDeIDs++; //auto incrementa o valor de idFuncionario a cada objeto criado.
+		
+		//validação dos atributos diretamente no contrutor para evitar criar objetos com erros
+		if (ValidaNome(nomeFuncionario)) {
+			throw new IllegalArgumentException("Nome inválido");
+		}
+		if (ValidadeIdade(idadeFuncionario)) {
+			throw new IllegalArgumentException("Idade inválida");
+		}
+		if (ValidaDataNascimento(dataNascimentoFuncionario)) {
+			throw new IllegalArgumentException("Data de nascimento inválida");
+		}
+		if (ValidaSalario(salarioFuncionario)) {
+			throw new IllegalArgumentException("Salário inválido");
+		}
+		
 		this.nomeFuncionario = nomeFuncionario;
 		this.idadeFuncionario = idadeFuncionario;
 		this.dataNascimentoFuncionario = dataNascimentoFuncionario;
 		this.salarioFuncionario = salarioFuncionario;
+		
 	}
+    
+    private boolean ValidaNome(String nome){
+    	if (nome.trim().isEmpty()) {
+    		return true;
+    	}
+    	return false;
+    }
+    
+    private boolean ValidadeIdade(int idade) {
+    	if (idade < MAIOR_IDADE) {
+    		return true;
+    	}
+    	return false;
+    }
+    private boolean ValidaDataNascimento(String data) {
+    	String regex = "^\\d{2}/\\d{2}/\\d{4}$";
+    	
+    	Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(data);
+        
+        if (matcher.matches()) {
+        	return false;
+        }
+    	return true;
+    }
+    
+    private boolean ValidaSalario(float salario) {
+    	if (salario < SALARIO_MINIMO) {
+    		return true;
+    	}
+    	return false;
+    }
+    
 	public int getIdFuncionario() {
 		return idFuncionario;
 	}
