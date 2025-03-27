@@ -1,0 +1,10 @@
+package aula_03.cleanCode01;
+
+public class ValidaFuncionario {
+	
+	public boolean ValidarFuncionario(String nome, int idade, String dataNascimento, float salario) {
+		
+		return true;
+	}
+
+}

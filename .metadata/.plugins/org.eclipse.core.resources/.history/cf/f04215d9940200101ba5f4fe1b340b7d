@@ -1,0 +1,21 @@
+package aula_03.cleanCode01;
+// alterar pacote se necessario
+
+
+
+public class CalculaSalarioFuncionarios {
+    
+    Float ACRESCIMO_SALARIO_MAIOR_MIL = 0.2f;
+    Float ACRESCIMO_SALARIO_MENOR_MIL = 0.1f;
+    
+          
+    		    
+}
+
+
+
+
+       
+
+
+
