@@ -1,4 +1,4 @@
 #ignora configurações eclipse
 .metadata/
 .settings/
-*/bin/
+bin/
