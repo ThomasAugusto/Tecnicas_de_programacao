@@ -1,0 +1,3 @@
+#ignora configurações eclipse
+.metadata/
+.settings/

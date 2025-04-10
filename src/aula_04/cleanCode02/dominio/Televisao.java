@@ -1,4 +1,4 @@
-package aula_04.cleanCode02;
+package aula_04.cleanCode02.dominio;
 
 public class Televisao {
 	private String modeloTelevisao;
@@ -13,16 +13,8 @@ public class Televisao {
 		return modeloTelevisao;
 	}
 
-	public void setModeloTelevisao(String modeloTelevisao) {
-		this.modeloTelevisao = modeloTelevisao;
-	}
-
 	public int getTamanhoTelevisao() {
 		return tamanhoTelevisao;
-	}
-
-	public void setTamanhoTelevisao(int tamanhoTelevisao) {
-		this.tamanhoTelevisao = tamanhoTelevisao;
 	}
 
 	@Override
