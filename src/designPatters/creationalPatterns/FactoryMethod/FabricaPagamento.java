@@ -1,4 +1,4 @@
-package aula08.FactoryMethod;
+package designPatters.creationalPatterns.FactoryMethod;
 
 public class FabricaPagamento {
 	

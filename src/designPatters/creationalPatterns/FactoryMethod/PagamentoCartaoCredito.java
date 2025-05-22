@@ -1,10 +1,10 @@
-package aula08.FactoryMethod;
+package designPatters.creationalPatterns.FactoryMethod;
 
 public class PagamentoCartaoCredito implements Pagamento {
 
 	@Override
 	public void realizarPagamento(Double valor) {
-		System.out.println("pagando no cart„o de crÈdito: " + valor);
+		System.out.println("pagando no cart√£o de cr√©dito: " + valor);
 	}
 
 }

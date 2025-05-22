@@ -1,4 +1,4 @@
-package aula08.PassagemOnibus;
+package aula_07.atividade04.PassagemOnibus;
 
 public class Teste {
 

@@ -1,10 +1,10 @@
-package aula08.FactoryMethod;
+package designPatters.creationalPatterns.FactoryMethod;
 
 public class PagamentoAVista implements Pagamento {
 
 	@Override
 	public void realizarPagamento(Double valor) {
-		System.out.println("pagando à vista: " + valor);
+		System.out.println("pagando Ã  vista: " + valor);
 	}
 
 }

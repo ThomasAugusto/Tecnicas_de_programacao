@@ -1,4 +1,4 @@
-package aula09.Facade;
+package designPatters.behavioralPatterns.Facade;
 
 public class ModuloFinanceiro {
 	public void faturar(Pedido pedido) {

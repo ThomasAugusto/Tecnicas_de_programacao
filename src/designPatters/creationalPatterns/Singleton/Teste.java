@@ -1,4 +1,4 @@
-package aula08.Singleton;
+package designPatters.creationalPatterns.Singleton;
 
 public class Teste {
 

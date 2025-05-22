@@ -1,4 +1,4 @@
-package aula09.Facade;
+package designPatters.behavioralPatterns.Facade;
 
 public interface PedidoFacadeAbstract {
 	void realizarPedido(Pedido pedido);

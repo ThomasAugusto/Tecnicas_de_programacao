@@ -1,6 +1,6 @@
-package aula08.FactoryMethod;
+package designPatters.creationalPatterns.FactoryMethod;
 
-import aula08.FactoryMethod.FabricaPagamento.TipoPagamento;
+import designPatters.creationalPatterns.FactoryMethod.FabricaPagamento.TipoPagamento;
 
 public class Teste {
 
