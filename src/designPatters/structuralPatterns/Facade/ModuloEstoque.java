@@ -1,4 +1,4 @@
-package designPatters.behavioralPatterns.Facade;
+package designPatters.structuralPatterns.Facade;
 
 public class ModuloEstoque {
 	public void enviarPedido(Pedido pedido) {

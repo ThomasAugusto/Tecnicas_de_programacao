@@ -1,4 +1,4 @@
-package designPatters.behavioralPatterns.Facade;
+package designPatters.structuralPatterns.Facade;
 
 public class ModuloPosVenda {
 	public void agendarContatoCliente (Pedido pedido) {

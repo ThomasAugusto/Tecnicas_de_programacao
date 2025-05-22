@@ -1,4 +1,4 @@
-package designPatters.behavioralPatterns.Facade;
+package designPatters.structuralPatterns.Facade;
 
 public class Pedido {
 	private int id;

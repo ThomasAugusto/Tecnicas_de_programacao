@@ -1,4 +1,4 @@
-package designPatters.behavioralPatterns.Facade;
+package designPatters.structuralPatterns.Facade;
 
 public interface PedidoFacadeAbstract {
 	void realizarPedido(Pedido pedido);
