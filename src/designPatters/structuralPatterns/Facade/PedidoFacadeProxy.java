@@ -1,4 +1,4 @@
-package aula09.Facade;
+package designPatters.structuralPatterns.Facade;
 
 public class PedidoFacadeProxy implements PedidoFacadeAbstract {
 	private PedidoFacade pedidoFacade;

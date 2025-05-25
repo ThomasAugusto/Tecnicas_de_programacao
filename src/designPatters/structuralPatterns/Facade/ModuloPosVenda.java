@@ -1,4 +1,4 @@
-package aula09.Facade;
+package designPatters.structuralPatterns.Facade;
 
 public class ModuloPosVenda {
 	public void agendarContatoCliente (Pedido pedido) {

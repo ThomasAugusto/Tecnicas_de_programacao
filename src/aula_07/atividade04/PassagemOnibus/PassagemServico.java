@@ -1,4 +1,4 @@
-package aula08.PassagemOnibus;
+package aula_07.atividade04.PassagemOnibus;
 
 public class PassagemServico {
     private PersistaPassagem persistaPassagem;
@@ -11,7 +11,7 @@ public class PassagemServico {
 	}
 	
 	// Parte fundamental da solucao para mudar
-	// o comportamento de como iremos persistir a informação
+	// o comportamento de como iremos persistir a informaï¿½ï¿½o
 	public void persitirPassagem(Passagem passagem) {
 		this.persistaPassagem.persistir(passagem);
 	}
