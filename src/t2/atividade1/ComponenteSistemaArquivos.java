@@ -1,4 +1,4 @@
-package t2.ativade1;
+package t2.atividade1;
 
 public interface ComponenteSistemaArquivos {
 

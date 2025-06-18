@@ -1,4 +1,4 @@
-package t2.ativade2;
+package t2.atividade2;
 
 public interface Bebida {
     String getDescricao();

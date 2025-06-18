@@ -1,4 +1,4 @@
-package t2.ativade1;
+package t2.atividade1;
 
 public class TesteComponenteSistemaArquivosComposite {
     public static void main(String[] args) {

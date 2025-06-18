@@ -1,8 +1,8 @@
-package t2.ativade2;
+package t2.atividade2;
 
-import t2.ativade2.condimentos.Chantilly;
-import t2.ativade2.condimentos.Chocolate;
-import t2.ativade2.condimentos.Leite;
+import t2.atividade2.condimentos.Chantilly;
+import t2.atividade2.condimentos.Chocolate;
+import t2.atividade2.condimentos.Leite;
 
 public class TesteBebidasDecorator {
     public static void main(String[] args) {

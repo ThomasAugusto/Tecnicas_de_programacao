@@ -1,4 +1,4 @@
-package t2.ativade3;
+package t2.atividade3;
 
 public class BoletoBancario implements PagamentoStrategyInterface {
     @Override

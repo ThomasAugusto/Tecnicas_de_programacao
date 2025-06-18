@@ -1,7 +1,7 @@
-package t2.ativade2.condimentos;
+package t2.atividade2.condimentos;
 
-import t2.ativade2.Bebida;
-import t2.ativade2.CondimentoDecorator;
+import t2.atividade2.Bebida;
+import t2.atividade2.CondimentoDecorator;
 
 public class Leite extends CondimentoDecorator {
 
